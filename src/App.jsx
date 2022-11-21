@@ -11,10 +11,15 @@ import Tooltip, { TooltipProps, tooltipClasses } from '@mui/material/Tooltip';
 import ImageList from '@mui/material/ImageList';
 import ImageListItem from '@mui/material/ImageListItem';
 import gmm from './gmm.jpg'
+import useMediaQuery from '@mui/material/useMediaQuery';
+
+
 
 const longText = `
 MOHIT KHANDELWAL 19UEC015
 `;
+
+
 
 const itemData = [
     {
@@ -119,11 +124,11 @@ const App = () => {
                     <Container fixed maxWidth = "md">
                         <Box sx={{  height: '30vh' }} >
 
-                            <Typography varient = "h2" fontSize={ 50 } align = "center" paddingTop={5} fontWeight='bold'>
+                            <Typography varient = "h2" fontSize="2em" align = "center" paddingTop={5} fontWeight='bold'>
                             Aim High With Brilliant Writing
                             </Typography>
 
-                            <Box sx={{  height :"10vh" , pt:2 , pl:25 }}>
+                            <Box sx={{  height :"10vh" , pt:'1em' , pl:'17rem'  }}>
 
                             <Button variant="contained"  size = "large" color="success" >
                                 <Typography variant="p"  align = "center" fontWeight='bold' padding={1}>
