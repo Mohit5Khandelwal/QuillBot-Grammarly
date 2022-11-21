@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.js": "/QuillBot-Grammarly/static/js/main.ba23a46f.js",
+    "static/media/gmm.jpg": "/QuillBot-Grammarly/static/media/gmm.4e233392c22f4cdb0017.jpg",
+    "static/media/grammarly_icon.ico": "/QuillBot-Grammarly/static/media/grammarly_icon.485db3d20ee0c99895aa.ico",
+    "index.html": "/QuillBot-Grammarly/index.html",
+    "main.ba23a46f.js.map": "/QuillBot-Grammarly/static/js/main.ba23a46f.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.ba23a46f.js"
+  ]
+}
